@@ -50,6 +50,12 @@ rm -f /etc/machine-id \
       /var/lib/dbus/machine-id
 
 #======================================
+# Add machine-id
+#======================================
+dbus-uuidgen --ensure
+systemd-machine-id-setup
+
+#======================================
 # SuSEconfig
 #--------------------------------------
 echo "** Running suseConfig..."
