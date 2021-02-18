@@ -87,8 +87,11 @@
         <package name="kernel-default"/>
 	<package name="salt-minion"/>
 
+	<!-- Remove saltboot
 	<package name="dracut-saltboot"/>
-        <package name="mdadm"/>
+	-->		
+
+	<package name="mdadm"/>
         <package name="cryptsetup"/>
         <package name="kernel-firmware"/>
         <package name="kexec-tools"/>
