@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<image schemaversion="6.1" name="sle15-sp2">
+<image schemaversion="6.1" name="sle15-sp2-k3s-agent">
     <description type="system">
         <author>Cameron Seader</author>
         <contact>cseader@suse.com</contact>
