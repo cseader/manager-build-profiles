@@ -75,6 +75,9 @@
 	<!-- K3s requirements -->
 	<package name="which"/>
 
+	<!-- K3s Register to Rancher requirements -->
+	<package name="jq"/>
+
         <!-- Only for btrfs
         <package name="btrfsprogs"/>
         <package name="btrfsmaintenance"/>
